@@ -1,2 +1,2 @@
-# nextjs-web-client-template
-A nextjs frontend template you can build solid web-clients from
+# gk_mensah_live
+A simple website for premium users to get access to premium zoom links

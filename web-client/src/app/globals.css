@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+
+.curveBorder {
+  border-top-left-radius: 20px;
+}
+
+.slick-slider button::before {
+  color: black;
+}
+
+.lr {
+  writing-mode: vertical-lr;
+}
+
+.skew-x-12 {
+  transform: skewX(-12deg);
+}
+
+.slick-slider .slick-track {
+  display: flex;
+  gap: 10px;
+}
+
+.panel-open {
+  overflow: hidden;
+}
+
+.bg-overlay {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (min-width: 767px) {
+  .desktop-view {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .mobile-view {
+    display: none;
+  }
+
+  .mobile-res {
+    width: 96vw;
+    margin-left: 8px;
+  }
+
+  .resBookComp {
+    width: 96vw;
+    margin-left: 8px;
+  }
+
+  .heading-alignment {
+    margin-left: 150px;
+  }
+}
+
+/* arrow in number input field */
+.remove-arrow::-webkit-inner-spin-button,
+.remove-arrow::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.remove-arrow {
+  -moz-appearance: textfield;
+}
+/* Increase saturation */
+.saturation-150 {
+  filter: saturate(1.2);
+}
+
+/* Increase sharpness */
+.sharpness-150 {
+  filter: contrast(1) brightness(1);
+}
